@@ -1,0 +1,10 @@
+compile: 
+javac --module-path "C:\pranjal burkule\InnoByte Services New\javafx-sdk-25.0.1\lib" --add-modules javafx.controls -d out -cp "libs/*" src\Main.java src\db\*.java src\ui\*.java src\util\*.java
+
+
+Run:
+java --module-path "C:\pranjal burkule\InnoByte Services New\javafx-sdk-25.0.1\lib" --add-modules javafx.controls -cp "out;libs/*" Main
+
+
+Usename : admin
+Password : admin123
